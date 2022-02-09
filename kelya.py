@@ -194,7 +194,7 @@ async def on_message(message):
         await message.channel.send('lol')
     elif client.user.mentioned_in(message) and 'prefix' in message.content:
         await message.channel.send(f'My Prefix is `{client.command_prefix}`')
-    elif message.channel.id == 868079083915989022:
+    elif message.channel.id == 8680*******:
         response = await rs.get_ai_response(message.content)
         await message.reply(response[0]['message'])
 
