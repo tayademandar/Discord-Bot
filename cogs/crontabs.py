@@ -8,7 +8,7 @@ class crontabs(commands.Cog):
     def __init__(self,bot):
         self.bot = bot
         
-    #CHANNEL_ID=769571226213154816
+    #CHANNEL_ID=**5712262****
     #valorant timer
     @aiocron.crontab('18,19,20 6 * * *') #9.30 9.45 = 0,15 16 * * *
     async def cornjob1():
